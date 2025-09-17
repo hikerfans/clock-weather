@@ -190,7 +190,7 @@
 
             position: absolute;
 
-            font: 2em Hei, Helvetica, Arial, sans-serif;
+            font: 1.5em Hei, Helvetica, Arial, sans-serif;
 
             color: #000;
 
@@ -202,7 +202,7 @@
 
             position: absolute;
 
-            font: 2em Hei, Helvetica, Arial, sans-serif;
+            font: 1.5em Hei, Helvetica, Arial, sans-serif;
 
             color: #fff;
 
@@ -222,7 +222,7 @@
 
             position: absolute;
 
-            font: 1em Avenir Next, Helvetica, Arial, sans-serif;
+            font: 0.8em Avenir Next, Helvetica, Arial, sans-serif;
 
             color: #000;
 
@@ -234,7 +234,7 @@
 
             position: absolute;
 
-            font: 1em Avenir Next, Helvetica, Arial, sans-serif;
+            font: 0.8em Avenir Next, Helvetica, Arial, sans-serif;
 
             color: #fff;
 
