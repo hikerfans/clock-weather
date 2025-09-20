@@ -98,13 +98,13 @@
         opacity: 1;
       }
       10% {
-        opacity: 0.8;
+        opacity: 0.9;
       }
       50% {
-        opacity: 0.6;
+        opacity: 0.8;
       }
       90% {
-        opacity: 0.8;
+        opacity: 0.9;
       }
       100% {
         opacity: 1;
@@ -113,49 +113,49 @@
 
     @-webkit-keyframes glow {
       0% {
-        opacity: 0.7;
+        opacity: 0.9;
       }
       50% {
         opacity: 1;
       }
       100% {
-        opacity: 0.7;
+        opacity: 0.9;
       }
     }
 
     @keyframes glow {
       0% {
-        opacity: 0.6;
+        opacity: 0.9;
       }
       50% {
         opacity: 1;
       }
       100% {
-        opacity: 0.6;
+        opacity: 0.9;
       }
     }
 
     @-webkit-keyframes breathe {
       0% {
-        opacity: 0.8;
+        opacity: 0.9;
       }
       50% {
         opacity: 1;
       }
       100% {
-        opacity: 0.8;
+        opacity: 0.9;
       }
     }
 
     @keyframes breathe {
       0% {
-        opacity: 0.8;
+        opacity: 0.9;
       }
       50% {
         opacity: 1;
       }
       100% {
-        opacity: 0.8;
+        opacity: 0.9;
       }
     }
 
@@ -257,17 +257,17 @@
 
     @-webkit-keyframes dust {
       0% {
-        opacity: 0;
+        opacity: 0.9;
         -webkit-transform: scale(0.5) rotateZ(-15deg);
         transform: scale(0.5) rotateZ(-15deg);
       }
       50% {
-        opacity: .75;
+        opacity: .8;
         -webkit-transform: scale(0.75) rotateZ(0deg);
         transform: scale(0.75) rotateZ(0deg);
       }
       100% {
-        opacity: 0;
+        opacity: 0.9;
         -webkit-transform: scale(1) rotateZ(15deg);
         transform: scale(1) rotateZ(15deg);
       }
@@ -275,17 +275,17 @@
 
     @keyframes dust {
       0% {
-        opacity: 0;
+        opacity: 0.9;
         -webkit-transform: scale(0.5) rotateZ(-15deg);
         transform: scale(0.5) rotateZ(-15deg);
       }
       50% {
-        opacity: .75;
+        opacity: .8;
         -webkit-transform: scale(0.75) rotateZ(0deg);
         transform: scale(0.75) rotateZ(0deg);
       }
       100% {
-        opacity: 0;
+        opacity: 0.9;
         -webkit-transform: scale(1) rotateZ(15deg);
         transform: scale(1) rotateZ(15deg);
       }
