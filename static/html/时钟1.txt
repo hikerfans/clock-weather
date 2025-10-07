@@ -110,11 +110,11 @@
         }
 
         .second {
-            transform: rotate(180deg)
+            /*transform: rotate(180deg)*/
         }
 
         .minute {
-            transform: rotate(54deg)
+            /*transform: rotate(54deg)*/
         }
 
         .second-hand {
@@ -125,7 +125,7 @@
         }
 
         .hour {
-            transform: rotate(304.5deg)
+            /*transform: rotate(304.5deg)*/
         }
 
 
@@ -371,7 +371,7 @@
             var hours = now.getHours()
 
             // 精确计算各指针的角度
-            var secondDegree = (seconds + milliseconds / 1000) * 6  // 秒针: 每秒6度
+            var secondDegree = seconds * 6  // 秒针: 每秒6度
             var minuteDegree = (minutes + seconds / 60) * 6  // 分针: 每分钟6度
             var hourDegree = (hours % 12 + minutes / 60) * 30  // 时针: 每小时30度
 
@@ -382,7 +382,7 @@
 
             setTimeout(function () {
                 animate();
-            }, 1000); // 提高更新频率以获得更平滑的动画
+            }, 1000); // 每秒更新一次
         }
 
         // 创建分钟刻度（0-60分钟）
