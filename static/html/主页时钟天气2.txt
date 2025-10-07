@@ -80,7 +80,7 @@
         .clock, .calendar {
             text-align: center;
             position: relative;
-            height: 230px;
+            height: 210px;
             padding: 0;
             margin:0 auto;
         }
@@ -167,7 +167,7 @@
             .widget.clock,
             .widget.calendar {
                 width: calc(50% - 5px);
-                height: 230px;
+                height: 210px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -175,7 +175,7 @@
             .widget.banner {
                 width: 100%;
                 clear: both;
-                height: 230px;
+                height: 210px;
             }
         }
 
@@ -188,7 +188,7 @@
             .widget.calendar {
                 width: calc(50% - 5px);
                 box-sizing: border-box;
-                height: 230px;
+                height: 210px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -196,7 +196,7 @@
             .widget.banner {
                 width: 100%;
                 clear: both;
-                height: 230px;
+                height: 210px;
             }
         }
 
@@ -208,7 +208,7 @@
 
         .banner div {
             width: 100%;
-            height: 230px;
+            height: 210px;
             display: flex; /* 新增flex布局 */
             align-items: center; /* 垂直居中 */
             justify-content: center; /* 水平居中 */
